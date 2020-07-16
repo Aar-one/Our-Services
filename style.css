@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#2a4b7c;
+}
+
+.service{
+   
+    
+}
+
+.service h1{
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+    text-decoration: underline;
+    color:yellow;
+    font-style: italic;
+}
+
+.content{
+    display: inline-block;
+    width: 30%;
+    height: 28vh;
+    text-align: center;
+    margin: 10px;
+    border: 2px dashed black;
+    padding: 5px;
+    background-color:white;
+    
+}
+
+.content:hover{
+    
+}
+
+.content i{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.content p{
+    margin-top: 20px;
+}
+
+
+/*================================================ Mobile ========================================================*/
+
+@media (max-width:500px){
+
+    body{
+        background-color:#2a4b7c;
+    }
+
+    .content{
+        width:fit-content;
+
+    }
+
+    .service h1{
+        color:yellow;
+        font-style: italic;
+    }
+}
